@@ -83,7 +83,7 @@ MP3 file saved as: audio_192kbps.mp3
 ```
 
 ## Screenshots
-![pic]()
+![pic](https://github.com/KernFerm/youtube-to-mp3/blob/main/how-to-use/screen_recording.gif)
 
 ## Troubleshooting
 
