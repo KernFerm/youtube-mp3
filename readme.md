@@ -11,7 +11,7 @@ This Python script downloads audio from a YouTube video URL and converts it to a
 
 ## Requirements
 
-- **Python** 3.6+
+- **Python** 3.11 [Python 3.11.6](https://github.com/KernFerm/Py3.11.6installer)
 - **ffmpeg** (must be installed and added to PATH)
 - **Python packages**:
   - `pytube`
