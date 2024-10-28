@@ -17,6 +17,11 @@ This Python script downloads audio from a YouTube video URL and converts it to a
   - `pytube`
   - `pydub`
 
+## Discord
+If you have any issues join our [Discord](https://www.discord.fnbubbles420.org/invite) Fnbubbles420 Org Community
+- Ping `Bubbles`
+
+
 ## Installation
 
 ### 1. Install ffmpeg
