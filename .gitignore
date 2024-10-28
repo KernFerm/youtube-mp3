@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments (if used)
+venv/
+.env/
+.venv/
+.virtualenv/
+
+# System-specific files (Windows and cross-platform for safety)
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+# IDE/editor files (optional, if you use them)
+.vscode/
+.idea/
+
+# Logs or temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
