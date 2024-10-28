@@ -22,7 +22,7 @@ If you have any issues, join our [Discord](https://www.discord.fnbubbles420.org/
 - Ping `Bubbles` for support.
 
 ### Youtube to MP3 exe
-- [youtube-to-mp3-exe.zip](https://github.com/KernFerm/youtube-to-mp3/releases/tag/youtube-mp3)
+- [youtube-to-mp3-exe.zip](https://github.com/KernFerm/youtube-to-mp3/releases/tag/youtube-mp3-exe)
 
 ## Installation
 
