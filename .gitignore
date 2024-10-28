@@ -25,3 +25,9 @@ $RECYCLE.BIN/
 *.temp
 *.bak
 *.swp
+
+# Screen recording files
+*.gif
+
+# Ignore all contents within how-to-use folder if it contains generated files
+how-to-use/*
