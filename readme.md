@@ -1,6 +1,6 @@
 # YouTube to MP3 Downloader
 
-This Python script downloads audio from a YouTube video URL and converts it to an MP3 file at 192 kbps. It uses the `pytube` library for downloading YouTube videos and `pydub` for audio conversion with `ffmpeg`.
+This Python script downloads audio from a YouTube video URL and converts it to an MP3 file at 192 kbps. It uses the `yt-dlp` library for downloading YouTube videos and `pydub` for audio conversion with `ffmpeg`.
 
 ## Features
 
@@ -11,16 +11,15 @@ This Python script downloads audio from a YouTube video URL and converts it to a
 
 ## Requirements
 
-- **Python** 3.11 [Python 3.11.6](https://github.com/KernFerm/Py3.11.6installer)
+- **Python** 3.11 [Python 3.11.6 Installer](https://github.com/KernFerm/Py3.11.6installer)
 - **ffmpeg** (must be installed and added to PATH)
 - **Python packages**:
-  - `pytube`
+  - `yt-dlp`
   - `pydub`
 
 ## Discord
-If you have any issues join our [Discord](https://www.discord.fnbubbles420.org/invite) Fnbubbles420 Org Community
-- Ping `Bubbles`
-
+If you have any issues, join our [Discord](https://www.discord.fnbubbles420.org/invite) - Fnbubbles420 Org Community.
+- Ping `Bubbles` for support.
 
 ## Installation
 
@@ -47,16 +46,20 @@ ffmpeg -version
 
 ### 2. Install Python Packages
 
-- Install the required packages by running:
+Install the required packages by running:
 
 ```
-pip install pytube pydub
+pip install yt-dlp pydub
 ```
 
 ## Usage
 
-1. `Clone` or `download` this repository.
-2. Run the script:
+- `Clone` or `download` this repository.
+## 📥 How to Download the Repo (First-Time Users)
+
+Click the link to read [**Instructions**](https://www.gitprojects.fnbubbles420.org/how-to-download-repos) 📄.
+
+Run the script:
 
 ```
 python main.py
@@ -64,7 +67,9 @@ python main.py
 
 - Enter the YouTube video URL when prompted.
 
-The script will download the audio from the specified YouTube URL, convert it to MP3 format at 192 kbps, and save it in the current directory with the video title as the filename.
+---
+The script will download the audio from the specified `YouTube URL`, convert it to `MP3 format` at `192 kbps`, and save it in the current directory with a `default filename`.
+---
 
 ## Example
 
@@ -72,24 +77,26 @@ The script will download the audio from the specified YouTube URL, convert it to
 $ python main.py
 FFmpeg found at: C:\path\to\ffmpeg.exe
 Enter the YouTube URL: https://www.youtube.com/watch?v=example
-Downloading 'Video Title'...
-Converting to MP3 with 192 kbps bitrate...
+Downloading and converting audio...
 Download and conversion completed!
-MP3 file saved as: Video_Title_192kbps.mp3
+MP3 file saved as: audio_192kbps.mp3
 ```
+
+## Screenshots
+![pic]()
 
 ## Troubleshooting
 
-- **FFmpeg Not Found**: If you see the message `FFmpeg is not installed or not found in PATH`. Please install it and add it to PATH., ensure that `ffmpeg` is installed and correctly added to your PATH.
+- **FFmpeg Not Found**: If you see the message `FFmpeg is not installed or not found in PATH`, please ensure that `ffmpeg` is installed and correctly added to your PATH.
 
 ## Notes
-
-- Ensure `ffmpeg` is installed and added to your system PATH so `pydub` can locate it.
-
-- If installed with `winget`, `ffmpeg` may be located at `C:\Users\<username>\AppData\Local\Microsoft\WinGet\Links`.
+- Ensure `ffmpeg` is installed and added to your system PATH so pydub can locate it.
+- If installed with winget, ffmpeg may be located at `C:\Users\<username>\AppData\Local\Microsoft\WinGet\Links`.
 
 # LICENSE
 
 - ## ***This project is proprietary and all rights are reserved by the author.***
 - ## ***Unauthorized copying, distribution, or modification of this project is strictly prohibited.***
 - ## ***Unless You have written permission from the Developer or the FNBUBBLES420 ORG.***
+---
+---
