@@ -1,4 +1,4 @@
-# YouTube to MP3 Downloader
+# Bubbles_The_Dev_Youtube_To_MP3 Downloader
 
 This Python script downloads audio from a YouTube video URL and converts it to an MP3 file at 192 kbps. It uses the `yt-dlp` library for downloading YouTube videos and `pydub` for audio conversion with `ffmpeg`.
 
