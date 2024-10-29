@@ -21,8 +21,8 @@ This Python script downloads audio from a YouTube video URL and converts it to a
 If you have any issues, join our [Discord](https://www.discord.fnbubbles420.org/invite) - Fnbubbles420 Org Community.
 - Ping `Bubbles` for support.
 
-### Youtube to MP3 exe
-- [youtube-to-mp3-exe.zip](https://github.com/KernFerm/youtube-to-mp3/releases/tag/youtube-mp3-exe)
+### Bubbles_The_Dev_Youtube_To_MP3
+- [Bubbles_The_Dev_Youtube_To_MP3](https://github.com/KernFerm/Bubbles_The_Dev_Youtube_To_MP3/releases/download/Bubbles_The_Dev_Youtube_To_MP3/Bubbles_The_Dev_Youtube_To_MP3.zip)
 
 ## Installation
 
