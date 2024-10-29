@@ -22,7 +22,7 @@ If you have any issues, join our [Discord](https://www.discord.fnbubbles420.org/
 - Ping `Bubbles` for support.
 
 ### Bubbles_The_Dev_Youtube_To_MP3
-- [Bubbles_The_Dev_Youtube_To_MP3](https://github.com/KernFerm/Bubbles_The_Dev_Youtube_To_MP3/releases/download/Bubbles_The_Dev_Youtube_To_MP3/Bubbles_The_Dev_Youtube_To_MP3.zip)
+- [Bubbles_The_Dev_Youtube_To_MP3](https://github.com/KernFerm/Bubbles_The_Dev_Youtube_To_MP3/releases/tag/Bubbles_The_Dev_Youtube_To_MP3-exe)
 
 ## Installation
 
