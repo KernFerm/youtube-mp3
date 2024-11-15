@@ -31,3 +31,6 @@ $RECYCLE.BIN/
 
 # Ignore all contents within how-to-use folder if it contains generated files
 how-to-use/*
+
+# Batch scripts
+launcher.bat
