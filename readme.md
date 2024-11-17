@@ -98,8 +98,8 @@ MP3 files saved in: downloaded_audio/
 ---
 
 ## How-To Video
-
-![pic](https://github.com/KernFerm/youtube-to-mp3/blob/main/how-to-use/screen_recording.gif)
+new vid coming soon...
+![pic]()
 
 ---
 
