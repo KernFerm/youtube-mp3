@@ -22,6 +22,7 @@ This Python script downloads audio from a YouTube video URL or playlist and conv
 ## Discord
 
 If you have any issues, join our [Discord](https://www.discord.fnbubbles420.org/invite) - Fnbubbles420 Org Community.  
+- Head to the channel `free-music`
 - Ping `Bubbles` for support.
 
 ### Project Link
