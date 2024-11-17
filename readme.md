@@ -86,7 +86,12 @@ python main.py
 ## Example
 
 ```
-$ python main.py FFmpeg found at: C:\path\to\ffmpeg.exe Do you want to download a single track or a playlist? (Enter 'track' or 'playlist'): playlist Enter the YouTube URL: https://www.youtube.com/playlist?list=example Downloading and converting audio... Processing metadata for Track Title... Download and conversion completed! MP3 files saved in: downloaded_audio/
+$ python main.py FFmpeg found at: C:\path\to\ffmpeg.exe Do you want to download a single track or a playlist? 
+(Enter 'track' or 'playlist'): playlist 
+Enter the YouTube URL: https://www.youtube.com/playlist?list=example Downloading and converting audio... 
+Processing metadata for Track Title... 
+Download and conversion completed! 
+MP3 files saved in: downloaded_audio/
 ```
 
 
