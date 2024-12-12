@@ -42,6 +42,27 @@ Run this command in **Command Prompt** or **PowerShell** as Administrator:
 winget install --id Gyan.FFmpeg -e --source winget
 ```
 
+Chocolatey is another package manager for Windows, similar to winget. You can use it to install FFmpeg and other software if winget is failing.
+
+To install FFmpeg using Chocolatey, follow these steps:
+
+Install Chocolatey if you haven't already:
+
+Open an elevated Command Prompt (right-click on Command Prompt and select "Run as Administrator").
+Run the following command to install Chocolatey:
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+After Chocolatey is installed, use the following command to install FFmpeg:
+
+```
+choco install ffmpeg
+```
+
+
+
 #### Option B: Download and Manually Install
 
 1. Download the latest `ffmpeg` build from [ffmpeg.org](https://ffmpeg.org/download.html) or [gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
