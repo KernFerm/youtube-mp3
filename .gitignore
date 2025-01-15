@@ -1,31 +1,41 @@
-# Ignore Python bytecode files
+# Bytecode and compiled Python files
 *.pyc
 *.pyo
 __pycache__/
-
-# Ignore runtime and build files
-dist/
-pyrarmor_runtime_*/
-
-# Ignore audio downloads
-downloaded_audio/
-
-# Ignore operating system files
-.DS_Store
-Thumbs.db
 
 # Ignore virtual environments
 .venv/
 env/
 venv/
 
-# Ignore IDE-specific files
+# Ignore runtime and build files
+dist/
+pyrarmor_runtime_*/  # Keep this if dynamically generated; otherwise, include the specific files in the repo.
+
+# Ignore audio downloads
+downloaded_audio/  # Ignore downloaded audio if it isn't required for version control.
+
+# IDE and editor-specific files
 .vscode/
 .idea/
 
-# Ignore other temporary files
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
 *.log
 *.tmp
 
-# Ignore system-wide Python installations
-site-packages/
+# Keep required project files
+!main.py
+!requirements.txt
+!readme.md
+!CODE_OF_CONDUCT.md
+!LICENSE.md
+!SECURITY.md
+!install-python.bat
+!launcher.bat
+
+# Ensure version control of the `how-to-use` folder
+!how-to-use/
