@@ -1,36 +1,31 @@
-# Python cache files
+# Ignore Python bytecode files
+*.pyc
+*.pyo
 __pycache__/
-*.py[cod]
 
-# Virtual environments (if used)
-venv/
-.env/
-.venv/
-.virtualenv/
+# Ignore runtime and build files
+dist/
+pyrarmor_runtime_*/
 
-# System-specific files (Windows and cross-platform for safety)
-Thumbs.db
-desktop.ini
-$RECYCLE.BIN/
-*.lnk
+# Ignore audio downloads
+downloaded_audio/
+
+# Ignore operating system files
 .DS_Store
+Thumbs.db
 
-# IDE/editor files (optional, if you use them)
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore IDE-specific files
 .vscode/
 .idea/
 
-# Logs or temporary files
+# Ignore other temporary files
 *.log
 *.tmp
-*.temp
-*.bak
-*.swp
 
-# Screen recording files
-*.gif
-
-# Ignore all contents within how-to-use folder if it contains generated files
-how-to-use/*
-
-# Batch scripts
-launcher.bat
+# Ignore system-wide Python installations
+site-packages/
