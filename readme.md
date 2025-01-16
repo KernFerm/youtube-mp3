@@ -14,6 +14,7 @@ This Python script downloads audio from a YouTube video URL or playlist and conv
 ## Requirements
 
 - **Python** 3.11 [Python 3.11.6 Installer](https://github.com/KernFerm/Py3.11.6installer)
+- `python batch file` to install python
 - **ffmpeg** (must be installed and added to PATH)
 - **Python packages**:
   - `yt-dlp`
@@ -74,14 +75,6 @@ choco install ffmpeg
 ### 2. Install Python Packages
 ```
 pip install yt-dlp pydub mutagen pyarmor
-```
-
-## How to Run the Program
-- Clone or download this repository.
-- Run the installation script to ensure all dependencies are set up:
-
-```
-install-python.bat
 ```
 
 ### Execute the script: 
